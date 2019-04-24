@@ -1,0 +1,3 @@
+/home/panda/Documents/server_install/build/CMakeFiles/rebuild_cache.dir
+/home/panda/Documents/server_install/build/CMakeFiles/edit_cache.dir
+/home/panda/Documents/server_install/build/CMakeFiles/PandoraServer.dir
