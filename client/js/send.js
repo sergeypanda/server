@@ -5,7 +5,7 @@ function SendRequestPOST(url, data, success)
 	xhttp.open('POST', url)
 	xhttp.onreadystatechange = function(){
 		if(this.readyState ==4 && this.status == 200){
-			sucess(xhttp.responseText);		
+			success(xhttp.responseText);		
 		}
 	}
 	xhttp.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
