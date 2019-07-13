@@ -1,11 +1,11 @@
-function SendRequestPOST(url, data)
+function SendRequestPOST(url, data, success)
 {
 	console.log('here');
 	var xhttp = new XMLHttpRequest();
 	xhttp.open('POST', url)
 	xhttp.onreadystatechange = function(){
 		if(this.readyState ==4 && this.status == 200){
-			console.log(xhttp.responseText);		
+			sucess(xhttp.responseText);		
 		}
 	}
 	xhttp.setRequestHeader('X-Requested-With', 'XMLHttpRequest');

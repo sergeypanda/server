@@ -24,6 +24,13 @@
 		<button type="button" id="sendPostRequest">Send Request</button>
 		<button type="button" >Send Get Request</button>
 	</div>
+	<section id="data">
+		<div class="container">
+			<span id="content">
+
+			</span>
+		</div>
+	</section>
 <section id="showcase">
 	<div class="container">
 		<h1>Affordable Professiobal webdesign</h1>
@@ -64,8 +71,10 @@
 <script type="text/javascript">
 	document.getElementById('sendPostRequest').addEventListener('click', function(){
 	//	var content = document.getElementById('content').value;
-	var xhttp = SendRequestPOST('http://localhost:20001', '');
-	
+	var xhttp = SendRequestPOST('http://localhost:20001', '', function(resp){
+		console.log(resp);
+	});
+
 	})
 </script>
 </body>
