@@ -6,3 +6,25 @@ body{
   margin: 0;
   background-color: #f4f4f4;
 }
+
+/*Global*/
+.container{
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a{
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
