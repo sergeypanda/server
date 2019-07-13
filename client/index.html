@@ -13,15 +13,15 @@
 			</div>
 			<nav>
 				<ul>
-					<li class="current"><a href="index.html">Home</li>
-					<li><a href="about.html">About</li>
-					<li><a href="services.html">Services</li>
+					<li class="current"><a href="index.html"></a>Home</li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 	<div>
-		<button type="button" onclick="SendRequestPOST('http://localhost:20001/', '')">Send Request</button>
+		<button type="button" id="sendPostRequest">Send Request</button>
 		<button type="button" >Send Get Request</button>
 	</div>
 <section id="showcase">
@@ -61,5 +61,12 @@
 <footer>
 	<p>Web Design, Copyright &copy; 2019</p>
 </footer>
+<script type="text/javascript">
+	document.getElementById('sendPostRequest').addEventListener('click', function(){
+	//	var content = document.getElementById('content').value;
+	var xhttp = SendRequestPOST('http://localhost:20001', '');
+	
+	})
+</script>
 </body>
 </html>
