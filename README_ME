@@ -1,0 +1,12 @@
+INSTALLATION
+
+Linux
+1.create build folder inside server_install
+2.run cmake .. -DBoost_INCLUDE_DIR=PATH_TO_BOOST -DBoost_LIBRARY_DIR=PATH_TO_LIB
+*current boost_include is at /home/panda/Documents/libs/boost/boost_1_64_0
+*current boost_lib is at /home/panda/Documents/.../3dparty/boost
+*relative path also works (relative to CMakefile.txt)
+3.run make 
+
+
+

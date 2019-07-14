@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/panda/Documents/server_install
+CMAKE_SOURCE_DIR = /home/panda/Documents/git/server_install
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/panda/Documents/server_install/build
+CMAKE_BINARY_DIR = /home/panda/Documents/git/server_install/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PandoraServer.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/PandoraServer.dir/flags.make
 
 CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.o: ../src/PandoraTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.o -c /home/panda/Documents/server_install/src/PandoraTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.o -c /home/panda/Documents/git/server_install/src/PandoraTest.cpp
 
 CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/PandoraTest.cpp > CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/PandoraTest.cpp > CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/PandoraTest.cpp -o CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/PandoraTest.cpp -o CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/PandoraServer.dir/src/PandoraTest.cpp.o.provides.build: CMakeFiles/Pa
 
 CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.o: ../src/TBaseClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.o -c /home/panda/Documents/server_install/src/TBaseClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.o -c /home/panda/Documents/git/server_install/src/TBaseClass.cpp
 
 CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/TBaseClass.cpp > CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/TBaseClass.cpp > CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/TBaseClass.cpp -o CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/TBaseClass.cpp -o CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/PandoraServer.dir/src/TBaseClass.cpp.o.provides.build: CMakeFiles/Pan
 
 CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.o: ../src/TClassAttribute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.o -c /home/panda/Documents/server_install/src/TClassAttribute.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.o -c /home/panda/Documents/git/server_install/src/TClassAttribute.cpp
 
 CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/TClassAttribute.cpp > CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/TClassAttribute.cpp > CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/TClassAttribute.cpp -o CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/TClassAttribute.cpp -o CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/PandoraServer.dir/src/TClassAttribute.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/PandoraServer.dir/src/TCollection.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/TCollection.cpp.o: ../src/TCollection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PandoraServer.dir/src/TCollection.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TCollection.cpp.o -c /home/panda/Documents/server_install/src/TCollection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PandoraServer.dir/src/TCollection.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TCollection.cpp.o -c /home/panda/Documents/git/server_install/src/TCollection.cpp
 
 CMakeFiles/PandoraServer.dir/src/TCollection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/TCollection.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/TCollection.cpp > CMakeFiles/PandoraServer.dir/src/TCollection.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/TCollection.cpp > CMakeFiles/PandoraServer.dir/src/TCollection.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/TCollection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/TCollection.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/TCollection.cpp -o CMakeFiles/PandoraServer.dir/src/TCollection.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/TCollection.cpp -o CMakeFiles/PandoraServer.dir/src/TCollection.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/TCollection.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/PandoraServer.dir/src/TCollection.cpp.o.provides.build: CMakeFiles/Pa
 
 CMakeFiles/PandoraServer.dir/src/TConfig.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/TConfig.cpp.o: ../src/TConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PandoraServer.dir/src/TConfig.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TConfig.cpp.o -c /home/panda/Documents/server_install/src/TConfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PandoraServer.dir/src/TConfig.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TConfig.cpp.o -c /home/panda/Documents/git/server_install/src/TConfig.cpp
 
 CMakeFiles/PandoraServer.dir/src/TConfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/TConfig.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/TConfig.cpp > CMakeFiles/PandoraServer.dir/src/TConfig.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/TConfig.cpp > CMakeFiles/PandoraServer.dir/src/TConfig.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/TConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/TConfig.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/TConfig.cpp -o CMakeFiles/PandoraServer.dir/src/TConfig.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/TConfig.cpp -o CMakeFiles/PandoraServer.dir/src/TConfig.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/TConfig.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/PandoraServer.dir/src/TConfig.cpp.o.provides.build: CMakeFiles/Pandor
 
 CMakeFiles/PandoraServer.dir/src/TError.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/TError.cpp.o: ../src/TError.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PandoraServer.dir/src/TError.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TError.cpp.o -c /home/panda/Documents/server_install/src/TError.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PandoraServer.dir/src/TError.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TError.cpp.o -c /home/panda/Documents/git/server_install/src/TError.cpp
 
 CMakeFiles/PandoraServer.dir/src/TError.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/TError.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/TError.cpp > CMakeFiles/PandoraServer.dir/src/TError.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/TError.cpp > CMakeFiles/PandoraServer.dir/src/TError.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/TError.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/TError.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/TError.cpp -o CMakeFiles/PandoraServer.dir/src/TError.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/TError.cpp -o CMakeFiles/PandoraServer.dir/src/TError.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/TError.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/PandoraServer.dir/src/TError.cpp.o.provides.build: CMakeFiles/Pandora
 
 CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.o: ../src/TLanguage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.o -c /home/panda/Documents/server_install/src/TLanguage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.o -c /home/panda/Documents/git/server_install/src/TLanguage.cpp
 
 CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/TLanguage.cpp > CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/TLanguage.cpp > CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/TLanguage.cpp -o CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/TLanguage.cpp -o CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/PandoraServer.dir/src/TLanguage.cpp.o.provides.build: CMakeFiles/Pand
 
 CMakeFiles/PandoraServer.dir/src/TLogger.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/TLogger.cpp.o: ../src/TLogger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PandoraServer.dir/src/TLogger.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TLogger.cpp.o -c /home/panda/Documents/server_install/src/TLogger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PandoraServer.dir/src/TLogger.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TLogger.cpp.o -c /home/panda/Documents/git/server_install/src/TLogger.cpp
 
 CMakeFiles/PandoraServer.dir/src/TLogger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/TLogger.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/TLogger.cpp > CMakeFiles/PandoraServer.dir/src/TLogger.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/TLogger.cpp > CMakeFiles/PandoraServer.dir/src/TLogger.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/TLogger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/TLogger.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/TLogger.cpp -o CMakeFiles/PandoraServer.dir/src/TLogger.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/TLogger.cpp -o CMakeFiles/PandoraServer.dir/src/TLogger.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/TLogger.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/PandoraServer.dir/src/TLogger.cpp.o.provides.build: CMakeFiles/Pandor
 
 CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.o: ../src/TRequestInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.o -c /home/panda/Documents/server_install/src/TRequestInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.o -c /home/panda/Documents/git/server_install/src/TRequestInfo.cpp
 
 CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/TRequestInfo.cpp > CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/TRequestInfo.cpp > CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/TRequestInfo.cpp -o CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/TRequestInfo.cpp -o CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/PandoraServer.dir/src/TRequestInfo.cpp.o.provides.build: CMakeFiles/P
 
 CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.o: ../src/TResponseInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.o -c /home/panda/Documents/server_install/src/TResponseInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.o -c /home/panda/Documents/git/server_install/src/TResponseInfo.cpp
 
 CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/TResponseInfo.cpp > CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/TResponseInfo.cpp > CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/TResponseInfo.cpp -o CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/TResponseInfo.cpp -o CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/PandoraServer.dir/src/TResponseInfo.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/PandoraServer.dir/src/TSession.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/TSession.cpp.o: ../src/TSession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PandoraServer.dir/src/TSession.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TSession.cpp.o -c /home/panda/Documents/server_install/src/TSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PandoraServer.dir/src/TSession.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TSession.cpp.o -c /home/panda/Documents/git/server_install/src/TSession.cpp
 
 CMakeFiles/PandoraServer.dir/src/TSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/TSession.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/TSession.cpp > CMakeFiles/PandoraServer.dir/src/TSession.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/TSession.cpp > CMakeFiles/PandoraServer.dir/src/TSession.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/TSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/TSession.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/TSession.cpp -o CMakeFiles/PandoraServer.dir/src/TSession.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/TSession.cpp -o CMakeFiles/PandoraServer.dir/src/TSession.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/TSession.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/PandoraServer.dir/src/TSession.cpp.o.provides.build: CMakeFiles/Pando
 
 CMakeFiles/PandoraServer.dir/src/TUtility.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/TUtility.cpp.o: ../src/TUtility.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PandoraServer.dir/src/TUtility.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TUtility.cpp.o -c /home/panda/Documents/server_install/src/TUtility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PandoraServer.dir/src/TUtility.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/TUtility.cpp.o -c /home/panda/Documents/git/server_install/src/TUtility.cpp
 
 CMakeFiles/PandoraServer.dir/src/TUtility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/TUtility.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/TUtility.cpp > CMakeFiles/PandoraServer.dir/src/TUtility.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/TUtility.cpp > CMakeFiles/PandoraServer.dir/src/TUtility.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/TUtility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/TUtility.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/TUtility.cpp -o CMakeFiles/PandoraServer.dir/src/TUtility.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/TUtility.cpp -o CMakeFiles/PandoraServer.dir/src/TUtility.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/TUtility.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/PandoraServer.dir/src/TUtility.cpp.o.provides.build: CMakeFiles/Pando
 
 CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.o: ../src/UriCodec.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.o -c /home/panda/Documents/server_install/src/UriCodec.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.o -c /home/panda/Documents/git/server_install/src/UriCodec.cpp
 
 CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/UriCodec.cpp > CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/UriCodec.cpp > CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/UriCodec.cpp -o CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/UriCodec.cpp -o CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/PandoraServer.dir/src/UriCodec.cpp.o.provides.build: CMakeFiles/Pando
 
 CMakeFiles/PandoraServer.dir/src/main.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/PandoraServer.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/main.cpp.o -c /home/panda/Documents/server_install/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/PandoraServer.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/main.cpp.o -c /home/panda/Documents/git/server_install/src/main.cpp
 
 CMakeFiles/PandoraServer.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/main.cpp > CMakeFiles/PandoraServer.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/main.cpp > CMakeFiles/PandoraServer.dir/src/main.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/main.cpp -o CMakeFiles/PandoraServer.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/main.cpp -o CMakeFiles/PandoraServer.dir/src/main.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/main.cpp.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/PandoraServer.dir/src/main.cpp.o.provides.build: CMakeFiles/PandoraSe
 
 CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.o: ../src/http/TClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.o -c /home/panda/Documents/server_install/src/http/TClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.o -c /home/panda/Documents/git/server_install/src/http/TClient.cpp
 
 CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/http/TClient.cpp > CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/http/TClient.cpp > CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/http/TClient.cpp -o CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/http/TClient.cpp -o CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/PandoraServer.dir/src/http/TClient.cpp.o.provides.build: CMakeFiles/P
 
 CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.o: ../src/http/TQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.o -c /home/panda/Documents/server_install/src/http/TQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.o -c /home/panda/Documents/git/server_install/src/http/TQueue.cpp
 
 CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/http/TQueue.cpp > CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/http/TQueue.cpp > CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/http/TQueue.cpp -o CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/http/TQueue.cpp -o CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/PandoraServer.dir/src/http/TQueue.cpp.o.provides.build: CMakeFiles/Pa
 
 CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.o: ../src/http/TQueueItem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.o -c /home/panda/Documents/server_install/src/http/TQueueItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.o -c /home/panda/Documents/git/server_install/src/http/TQueueItem.cpp
 
 CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/http/TQueueItem.cpp > CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/http/TQueueItem.cpp > CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/http/TQueueItem.cpp -o CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/http/TQueueItem.cpp -o CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/PandoraServer.dir/src/http/TQueueItem.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.o: ../src/http/TSocketManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.o -c /home/panda/Documents/server_install/src/http/TSocketManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.o -c /home/panda/Documents/git/server_install/src/http/TSocketManager.cpp
 
 CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/http/TSocketManager.cpp > CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/http/TSocketManager.cpp > CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/http/TSocketManager.cpp -o CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/http/TSocketManager.cpp -o CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/PandoraServer.dir/src/http/TSocketManager.cpp.o.provides.build: CMake
 
 CMakeFiles/PandoraServer.dir/src/http/connection.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/http/connection.cpp.o: ../src/http/connection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/connection.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/connection.cpp.o -c /home/panda/Documents/server_install/src/http/connection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/connection.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/connection.cpp.o -c /home/panda/Documents/git/server_install/src/http/connection.cpp
 
 CMakeFiles/PandoraServer.dir/src/http/connection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/http/connection.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/http/connection.cpp > CMakeFiles/PandoraServer.dir/src/http/connection.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/http/connection.cpp > CMakeFiles/PandoraServer.dir/src/http/connection.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/http/connection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/http/connection.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/http/connection.cpp -o CMakeFiles/PandoraServer.dir/src/http/connection.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/http/connection.cpp -o CMakeFiles/PandoraServer.dir/src/http/connection.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/http/connection.cpp.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/PandoraServer.dir/src/http/connection.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.o: ../src/http/mime_types.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.o -c /home/panda/Documents/server_install/src/http/mime_types.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.o -c /home/panda/Documents/git/server_install/src/http/mime_types.cpp
 
 CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/http/mime_types.cpp > CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/http/mime_types.cpp > CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/http/mime_types.cpp -o CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/http/mime_types.cpp -o CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/PandoraServer.dir/src/http/mime_types.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/PandoraServer.dir/src/http/reply.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/http/reply.cpp.o: ../src/http/reply.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/reply.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/reply.cpp.o -c /home/panda/Documents/server_install/src/http/reply.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/reply.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/reply.cpp.o -c /home/panda/Documents/git/server_install/src/http/reply.cpp
 
 CMakeFiles/PandoraServer.dir/src/http/reply.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/http/reply.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/http/reply.cpp > CMakeFiles/PandoraServer.dir/src/http/reply.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/http/reply.cpp > CMakeFiles/PandoraServer.dir/src/http/reply.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/http/reply.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/http/reply.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/http/reply.cpp -o CMakeFiles/PandoraServer.dir/src/http/reply.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/http/reply.cpp -o CMakeFiles/PandoraServer.dir/src/http/reply.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/http/reply.cpp.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/PandoraServer.dir/src/http/reply.cpp.o.provides.build: CMakeFiles/Pan
 
 CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.o: ../src/http/request_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.o -c /home/panda/Documents/server_install/src/http/request_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.o -c /home/panda/Documents/git/server_install/src/http/request_handler.cpp
 
 CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/http/request_handler.cpp > CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/http/request_handler.cpp > CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/http/request_handler.cpp -o CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/http/request_handler.cpp -o CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/PandoraServer.dir/src/http/request_handler.cpp.o.provides.build: CMak
 
 CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.o: ../src/http/request_parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.o -c /home/panda/Documents/server_install/src/http/request_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.o -c /home/panda/Documents/git/server_install/src/http/request_parser.cpp
 
 CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/http/request_parser.cpp > CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/http/request_parser.cpp > CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/http/request_parser.cpp -o CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/http/request_parser.cpp -o CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/PandoraServer.dir/src/http/request_parser.cpp.o.provides.build: CMake
 
 CMakeFiles/PandoraServer.dir/src/http/server.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/http/server.cpp.o: ../src/http/server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/server.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/server.cpp.o -c /home/panda/Documents/server_install/src/http/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/server.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/server.cpp.o -c /home/panda/Documents/git/server_install/src/http/server.cpp
 
 CMakeFiles/PandoraServer.dir/src/http/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/http/server.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/http/server.cpp > CMakeFiles/PandoraServer.dir/src/http/server.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/http/server.cpp > CMakeFiles/PandoraServer.dir/src/http/server.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/http/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/http/server.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/http/server.cpp -o CMakeFiles/PandoraServer.dir/src/http/server.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/http/server.cpp -o CMakeFiles/PandoraServer.dir/src/http/server.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/http/server.cpp.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/PandoraServer.dir/src/http/server.cpp.o.provides.build: CMakeFiles/Pa
 
 CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.o: ../src/http/ssl_connection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.o -c /home/panda/Documents/server_install/src/http/ssl_connection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.o -c /home/panda/Documents/git/server_install/src/http/ssl_connection.cpp
 
 CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/http/ssl_connection.cpp > CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/http/ssl_connection.cpp > CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/http/ssl_connection.cpp -o CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/http/ssl_connection.cpp -o CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.o.provides.build: CMake
 
 CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.o: CMakeFiles/PandoraServer.dir/flags.make
 CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.o: ../src/http/ssl_server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.o -c /home/panda/Documents/server_install/src/http/ssl_server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.o -c /home/panda/Documents/git/server_install/src/http/ssl_server.cpp
 
 CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/server_install/src/http/ssl_server.cpp > CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/panda/Documents/git/server_install/src/http/ssl_server.cpp > CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.i
 
 CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/server_install/src/http/ssl_server.cpp -o CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/panda/Documents/git/server_install/src/http/ssl_server.cpp -o CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.s
 
 CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.o.requires:
 
@@ -741,7 +741,7 @@ PandoraServer: CMakeFiles/PandoraServer.dir/src/http/ssl_connection.cpp.o
 PandoraServer: CMakeFiles/PandoraServer.dir/src/http/ssl_server.cpp.o
 PandoraServer: CMakeFiles/PandoraServer.dir/build.make
 PandoraServer: CMakeFiles/PandoraServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/panda/Documents/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable PandoraServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/panda/Documents/git/server_install/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable PandoraServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PandoraServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -783,6 +783,6 @@ CMakeFiles/PandoraServer.dir/clean:
 .PHONY : CMakeFiles/PandoraServer.dir/clean
 
 CMakeFiles/PandoraServer.dir/depend:
-	cd /home/panda/Documents/server_install/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panda/Documents/server_install /home/panda/Documents/server_install /home/panda/Documents/server_install/build /home/panda/Documents/server_install/build /home/panda/Documents/server_install/build/CMakeFiles/PandoraServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/panda/Documents/git/server_install/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/panda/Documents/git/server_install /home/panda/Documents/git/server_install /home/panda/Documents/git/server_install/build /home/panda/Documents/git/server_install/build /home/panda/Documents/git/server_install/build/CMakeFiles/PandoraServer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PandoraServer.dir/depend
 

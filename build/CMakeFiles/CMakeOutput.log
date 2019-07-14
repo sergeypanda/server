@@ -10,33 +10,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/panda/Documents/server_install/build/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/panda/Documents/git/server_install/build/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp
+Change Dir: /home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b339d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b339d.dir/build.make CMakeFiles/cmTC_b339d.dir/build
-make[1]: Entering directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b339d.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_b339d.dir/testCXXCompiler.cxx.o -c /home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_b339d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b339d.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_b339d.dir/testCXXCompiler.cxx.o  -o cmTC_b339d 
-make[1]: Leaving directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_433b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_433b6.dir/build.make CMakeFiles/cmTC_433b6.dir/build
+make[1]: Entering directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_433b6.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_433b6.dir/testCXXCompiler.cxx.o -c /home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_433b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_433b6.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_433b6.dir/testCXXCompiler.cxx.o  -o cmTC_433b6 
+make[1]: Leaving directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp
+Change Dir: /home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d089d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d089d.dir/build.make CMakeFiles/cmTC_d089d.dir/build
-make[1]: Entering directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d089d.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_d089d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_d089d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d089d.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_d089d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d089d  
+Run Build Command:"/usr/bin/make" "cmTC_53fb8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53fb8.dir/build.make CMakeFiles/cmTC_53fb8.dir/build
+make[1]: Entering directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53fb8.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_53fb8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_53fb8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53fb8.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_53fb8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_53fb8  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
@@ -45,25 +45,25 @@ Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-18+deb9u1' 
 Thread model: posix
 gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d089d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZuVOsP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d089d /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_d089d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d089d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp'
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_53fb8' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbdE32d.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_53fb8 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_53fb8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_53fb8' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d089d/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d089d.dir/build.make CMakeFiles/cmTC_d089d.dir/build]
-  ignore line: [make[1]: Entering directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_d089d.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_d089d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_d089d]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d089d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_d089d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d089d  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_53fb8/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_53fb8.dir/build.make CMakeFiles/cmTC_53fb8.dir/build]
+  ignore line: [make[1]: Entering directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_53fb8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_53fb8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_53fb8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53fb8.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_53fb8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_53fb8  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
@@ -72,14 +72,14 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d089d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZuVOsP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d089d /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_d089d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_53fb8' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbdE32d.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_53fb8 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_53fb8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccZuVOsP.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccbdE32d.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -95,11 +95,10 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d089d] ==> ignore
+    arg [cmTC_53fb8] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
-    arg [-L/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib/../lib] ==> dir [/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib]
@@ -107,10 +106,8 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib] ==> dir [/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib]
-    arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
-    arg [CMakeFiles/cmTC_d089d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_53fb8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -124,7 +121,6 @@ Parsed CXX implicit link information from above output:
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
-  collapse library dir [/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib/../lib] ==> [/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6] ==> [/usr/lib/gcc/x86_64-linux-gnu/6]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> [/usr/lib]
@@ -132,27 +128,26 @@ Parsed CXX implicit link information from above output:
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib] ==> [/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;c]
-  implicit dirs: [/home/panda/Documents/libs/boost/boost_1_64_0/stage/lib;/usr/lib/gcc/x86_64-linux-gnu/6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp
+Change Dir: /home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_94140/fast"
-/usr/bin/make -f CMakeFiles/cmTC_94140.dir/build.make CMakeFiles/cmTC_94140.dir/build
-make[1]: Entering directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_94140.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_94140.dir/feature_tests.cxx.o -c /home/panda/Documents/server_install/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_94140
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94140.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_94140.dir/feature_tests.cxx.o  -o cmTC_94140 
-make[1]: Leaving directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4dbb3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4dbb3.dir/build.make CMakeFiles/cmTC_4dbb3.dir/build
+make[1]: Entering directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4dbb3.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_4dbb3.dir/feature_tests.cxx.o -c /home/panda/Documents/git/server_install/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4dbb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dbb3.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_4dbb3.dir/feature_tests.cxx.o  -o cmTC_4dbb3 
+make[1]: Leaving directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -215,17 +210,17 @@ make[1]: Leaving directory '/home/panda/Documents/server_install/build/CMakeFile
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp
+Change Dir: /home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6d89f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6d89f.dir/build.make CMakeFiles/cmTC_6d89f.dir/build
-make[1]: Entering directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6d89f.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_6d89f.dir/feature_tests.cxx.o -c /home/panda/Documents/server_install/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6d89f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d89f.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_6d89f.dir/feature_tests.cxx.o  -o cmTC_6d89f 
-make[1]: Leaving directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_92ece/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92ece.dir/build.make CMakeFiles/cmTC_92ece.dir/build
+make[1]: Entering directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_92ece.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_92ece.dir/feature_tests.cxx.o -c /home/panda/Documents/git/server_install/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_92ece
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92ece.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_92ece.dir/feature_tests.cxx.o  -o cmTC_92ece 
+make[1]: Leaving directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -288,17 +283,17 @@ make[1]: Leaving directory '/home/panda/Documents/server_install/build/CMakeFile
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp
+Change Dir: /home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c8630/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c8630.dir/build.make CMakeFiles/cmTC_c8630.dir/build
-make[1]: Entering directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c8630.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_c8630.dir/feature_tests.cxx.o -c /home/panda/Documents/server_install/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c8630
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8630.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_c8630.dir/feature_tests.cxx.o  -o cmTC_c8630 
-make[1]: Leaving directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_700f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_700f5.dir/build.make CMakeFiles/cmTC_700f5.dir/build
+make[1]: Entering directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_700f5.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_700f5.dir/feature_tests.cxx.o -c /home/panda/Documents/git/server_install/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_700f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_700f5.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_700f5.dir/feature_tests.cxx.o  -o cmTC_700f5 
+make[1]: Leaving directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -359,33 +354,33 @@ make[1]: Leaving directory '/home/panda/Documents/server_install/build/CMakeFile
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp
+Change Dir: /home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_76aed/fast"
-/usr/bin/make -f CMakeFiles/cmTC_76aed.dir/build.make CMakeFiles/cmTC_76aed.dir/build
-make[1]: Entering directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_76aed.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++     -pthread -lboost_system -lboost_filesystem -lboost_thread -lboost_regex -lssl -lcrypto    -o CMakeFiles/cmTC_76aed.dir/CheckIncludeFile.cxx.o -c /home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_76aed
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76aed.dir/link.txt --verbose=1
-/usr/bin/c++   -pthread -lboost_system -lboost_filesystem -lboost_thread -lboost_regex -lssl -lcrypto     CMakeFiles/cmTC_76aed.dir/CheckIncludeFile.cxx.o  -o cmTC_76aed 
-make[1]: Leaving directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_289ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_289ab.dir/build.make CMakeFiles/cmTC_289ab.dir/build
+make[1]: Entering directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_289ab.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -pthread -lboost_system -lboost_filesystem -lboost_thread -lboost_regex -lssl -lcrypto    -o CMakeFiles/cmTC_289ab.dir/CheckIncludeFile.cxx.o -c /home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_289ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_289ab.dir/link.txt --verbose=1
+/usr/bin/c++   -pthread -lboost_system -lboost_filesystem -lboost_thread -lboost_regex -lssl -lcrypto     CMakeFiles/cmTC_289ab.dir/CheckIncludeFile.cxx.o  -o cmTC_289ab 
+make[1]: Leaving directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the pthread_create exist passed with the following output:
-Change Dir: /home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp
+Change Dir: /home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_13044/fast"
-/usr/bin/make -f CMakeFiles/cmTC_13044.dir/build.make CMakeFiles/cmTC_13044.dir/build
-make[1]: Entering directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_13044.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++     -pthread -lboost_system -lboost_filesystem -lboost_thread -lboost_regex -lssl -lcrypto    -o CMakeFiles/cmTC_13044.dir/CheckSymbolExists.cxx.o -c /home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_13044
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13044.dir/link.txt --verbose=1
-/usr/bin/c++   -pthread -lboost_system -lboost_filesystem -lboost_thread -lboost_regex -lssl -lcrypto     CMakeFiles/cmTC_13044.dir/CheckSymbolExists.cxx.o  -o cmTC_13044 
-make[1]: Leaving directory '/home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d84bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d84bc.dir/build.make CMakeFiles/cmTC_d84bc.dir/build
+make[1]: Entering directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d84bc.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -pthread -lboost_system -lboost_filesystem -lboost_thread -lboost_regex -lssl -lcrypto    -o CMakeFiles/cmTC_d84bc.dir/CheckSymbolExists.cxx.o -c /home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_d84bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d84bc.dir/link.txt --verbose=1
+/usr/bin/c++   -pthread -lboost_system -lboost_filesystem -lboost_thread -lboost_regex -lssl -lcrypto     CMakeFiles/cmTC_d84bc.dir/CheckSymbolExists.cxx.o  -o cmTC_d84bc 
+make[1]: Leaving directory '/home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp'
 
-File /home/panda/Documents/server_install/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/panda/Documents/git/server_install/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <pthread.h>
 
