@@ -2,6 +2,10 @@
 <head>
 	<title>Send Request</title>
 <script src="js/send.js"></script>
+
+<link href="tabulator-master/dist/css/tabulator.css" rel="stylesheet">
+<script type="text/javascript" src="tabulator-master/dist/js/tabulator.js"></script>
+
 <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -26,9 +30,19 @@
 	</div>
 	<section id="data">
 		<div class="container">
-			<span id="content">
 
-			</span>
+			<div class="dataSection" style="width:60%">
+				<div id="example-table"></div>
+			</div>
+
+			<div  class="dataSection" id="addForm">
+				<form action="index.html" method="post">
+					<input type="text" name="Name" placeholder="Type something"><br>
+					<input type="text" name="Driver" value="Dick" placeholder="Type something else"><br>
+					<textarea name="Progress" rows="8" cols="80"></textarea><br>
+					<button type="button" class="button_1">Submit</button>
+				</form>
+			</div>
 		</div>
 	</section>
 <section id="showcase">
@@ -42,7 +56,7 @@
 		<h1>Subscribe to out Newsletter</h1>
 		<form action="index.html" method="post">
 			<input type="email" placeholder="Enter email">
-			<button type="submit" class="button_1">Subscribe</button>
+			<button type="button" class="button_1">Subscribe</button>
 		</form>
 	</div>
 </section>
@@ -68,14 +82,9 @@
 <footer>
 	<p>Web Design, Copyright &copy; 2019</p>
 </footer>
+<script src="js/table.js"></script>
 <script type="text/javascript">
-	document.getElementById('sendPostRequest').addEventListener('click', function(){
-	//	var content = document.getElementById('content').value;
-	var xhttp = SendRequestPOST('http://localhost:20001', '', function(resp){
-		console.log(resp);
-	});
 
-	})
 </script>
 </body>
 </html>
